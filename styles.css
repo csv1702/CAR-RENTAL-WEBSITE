@@ -1,0 +1,75 @@
+/* Resetting default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    color: #c86227;
+    padding: 1rem;
+    background-color: #eaeaea78;
+    border-radius: 13px;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 13px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 6px 6px;
+    font-size: 17px;
+    border-radius: 5px;
+    color: black
+}
+
+.about {
+    padding: 14px;
+    background-color: #eaeaea78;
+    border-radius: 13px;
+    margin: 22px;
+}
+
+footer {
+
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+nav li a:hover{
+    color: red
+}
+nav input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+h2{
+    color: #c86227;
+}
